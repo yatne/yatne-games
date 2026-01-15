@@ -26,7 +26,11 @@ body {
 
 
 p {
-    margin: 12px 0;
+    padding: 12px;
+}
+
+ul {
+    padding-left: 12px;
 }
 
 .card {
@@ -75,6 +79,14 @@ h1 {
     margin-bottom: 12px;
     letter-spacing: -0.02em;
     visibility: hidden;
+}
+
+.sminfo {
+    border: 1px dashed  #A07BD8;
+}
+
+.slide-and-magic-title {
+    color: #A07BD8
 }
 
 @media screen and (max-width: 760px){
