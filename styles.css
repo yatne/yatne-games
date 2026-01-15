@@ -61,8 +61,10 @@ p {
 
 .ascii-image {
     font-style: normal;
-    font-size: 10px;
-    font-family: monospace;
+    font-size: 11px;
+    line-height: 1.06;
+    font-weight: 800;
+    font-family: "Inconsolata", monospace;
     margin-bottom: 13px;
     max-width: 720px;
     width: 100%;
