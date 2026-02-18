@@ -30,7 +30,8 @@ p {
 }
 
 ul {
-    padding-left: 12px;
+    padding-left: 32px;
+    list-style: square;
 }
 
 .card {
@@ -83,6 +84,12 @@ h1 {
 
 .sminfo {
     border: 1px dashed  #A07BD8;
+    line-height: 2;
+    margin: 24px 0;
+}
+
+.sminfo svg path {
+    fill: #A07BD8
 }
 
 .slide-and-magic-title {
@@ -101,8 +108,8 @@ h1 {
 
 p.subtitle {
     color: var(--muted);
-    margin-bottom: 28px;
-    line-height: 1.6;
+    line-height: 2;
+    padding-bottom: 0;
 }
 
 .links {
@@ -113,7 +120,15 @@ p.subtitle {
 }
 
 .info {
+    color: var(--muted);
     line-height: 2;
+    padding-top: 0;
+    margin-bottom: 24px;
+}
+.info-media {
+    color: var(--muted);
+    line-height: 2;
+    padding-top: 0;
 }
 
 a svg {
@@ -123,11 +138,6 @@ a svg {
 
 a svg path {
     fill: white;
-}
-
-ul {
-    list-style: none;
-    line-height: 2.5;
 }
 
 .link {
@@ -152,6 +162,12 @@ ul {
     text-decoration: none;
     color: var(--fg);
     border: 1px solid #242a38;
+    transition: all 0.2s ease;
+}
+
+.inline-link-lite {
+    text-decoration: none;
+    color: var(--fg);
     transition: all 0.2s ease;
 }
 
